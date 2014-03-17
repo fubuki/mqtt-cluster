@@ -1,0 +1,42 @@
+{
+  "name": "mqtt-cluster",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Fubuki",
+  "description": "測試mqtt.js加入cluster",
+  "contributors": [ 
+    {
+      "name": "fubuki",
+      "email": "fubuki@users.noreply.github.com"
+    } 
+  ],
+  "bin": {
+    "http-server": "./bin/http-server"
+  },
+  "scripts": {
+  },
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fubuki/mqtt-cluster.git"
+  },
+  "keywords": [
+    "mqtt",
+    "cluster"
+  ],
+  "dependencies" : {
+    "mqtt"    :  "0.2"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "mqtt"    :  "0.2"
+  },
+  "bundledDependencies": [
+    "union",
+    "ecstatic"
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
