@@ -1,6 +1,7 @@
 var mosca = require('mosca')
 var redis = require('redis')
-
+var posix = require('posix')
+posix.setrlimit('nofile', { soft: 10000, hard: 10000 });
 
 var ascoltatore = {
 	type: 'redis',
